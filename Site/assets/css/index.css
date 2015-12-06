@@ -6,6 +6,8 @@ body
 header
 {
 	background-color : rgb(255,255,255);
+	background-image: url("../images/back-ac.jpg");
+	background-repeat:no-repeat;
 }
 
 h1
@@ -69,18 +71,17 @@ footer
 {
 	background-color : rgb(255,255,255);
 	height : 4em;
+	background-image: url("../images/back-ac.jpg");
+	background-repeat:no-repeat;
 }
 
 /* _____________________________________________________ */
 header ul{
-     position:relative;
      height:2em;
-     margin:30px 100px;
      padding:0;
-     white-space:nowrap;
 }
 header ul li{
-     display:inline;
+     display:inline-block;
      text-align:center;
 }
 
@@ -97,6 +98,7 @@ header ul li a{
      transition:background-color 1s;
 	 transition:width 1s;
 	 width:9em;
+	 color : white;
 }
 
 
