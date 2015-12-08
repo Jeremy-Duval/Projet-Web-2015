@@ -5,14 +5,49 @@ body
 
 header
 {
-	background-color : rgb(255,255,255);
 	background-image: url("../images/back-ac.jpg");
-	background-repeat:no-repeat;
+	background-size: 100%;
 }
 
 h1
 {
+	color : rgb(32,143,255);
+	text-shadow:5px 5px 10px rgb(32,143,255);
+	font-family: Castellar, serif;
 	text-align:center;
+	padding-top:1%;
+}
+
+header ul
+{
+     height:2em;
+     padding:0;
+	 background-color: rgb(0,128,255);
+}
+
+header ul li
+{
+     display:inline-block;
+     text-align:center;
+}
+
+header ul li a
+{
+     display:inline-block;
+     box-sizing:border-box;
+     padding:.4em .2em;
+     text-decoration:none;
+     text-shadow:0 1px 0 white;
+     transition:background-color 1s;
+	 transition:width 1s;
+	 width:9em;
+	 color : white;
+}
+
+header ul li a:hover
+{
+	width : 12em;
+	background-color : rgb(94,174,255);
 }
 
 a
@@ -24,13 +59,6 @@ nav ul
 {
 	text-align : center;
 }
-/*
-nav ul li
-{
-	display : inline-block;
-	text-align : center;
-}
-*/
 
 nav ul li ul 
 {
@@ -66,6 +94,7 @@ aside
 	height : 49em;
 	padding-left:1em;
 	border: 0.5em inset black;
+	color: rgb(0,128,255);
 
 }
 
@@ -76,41 +105,7 @@ aside ul li a
 
 footer
 {
-	background-color : rgb(255,255,255);
 	height : 4em;
 	background-image: url("../images/back-ac.jpg");
-	background-repeat:no-repeat;
-}
-
-/* _____________________________________________________ */
-header ul{
-     height:2em;
-     padding:0;
-}
-header ul li{
-     display:inline-block;
-     text-align:center;
-}
-
-header ul {
-     background-color: rgb(0,128,255);
-	 }
-
-header ul li a{
-     display:inline-block;
-     box-sizing:border-box;
-     padding:.4em .2em;
-     text-decoration:none;
-     text-shadow:0 1px 0 white;
-     transition:background-color 1s;
-	 transition:width 1s;
-	 width:9em;
-	 color : white;
-}
-
-
-header ul li a:hover
-{
-	width : 12em;
-	background-color : rgb(94,174,255);
+	background-size: 100%;
 }
