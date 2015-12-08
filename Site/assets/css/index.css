@@ -31,6 +31,20 @@ header ul li
      text-align:center;
 }
 
+
+header ul li:hover ul
+{
+	display: table;
+}
+
+header ul li ul 
+{
+	display : none;
+	transition: display 0s;
+	position: relative;
+	z-index : 1;
+}
+
 header ul li a
 {
      display:inline-block;
@@ -60,10 +74,6 @@ nav ul
 	text-align : center;
 }
 
-nav ul li ul 
-{
-	display : none;
-}
 
 article
 {
@@ -76,11 +86,11 @@ article
 	padding-left:1em;
 }
 
-article p::first-letter
+article p.texte::first-letter
 {
 	color : blue;
 	font-size : 1.5em;
-	font-family : serif;
+	font-family : castellar, "comic sans MS", serif;
 }
 
 aside
@@ -101,6 +111,15 @@ aside
 aside ul li a
 {
 	display : block;
+	color: rgb(0,128,255);
+	transition: color 1s;
+	transition: text-decoration 1s;
+}
+
+aside ul li a:hover
+{
+	color: rgb(0,200,0);
+	text-decoration: underline;
 }
 
 footer
@@ -108,4 +127,10 @@ footer
 	height : 4em;
 	background-image: url("../images/back-ac.jpg");
 	background-size: 100%;
+}
+
+footer p
+{
+	text-align:center;
+	padding-top:1%;
 }
