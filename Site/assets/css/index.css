@@ -107,7 +107,28 @@ article p#Bourg
 	display :none;
 }
 
+/*
 article p#Bourg:hover
+{
+	display:block;
+}
+*/
+article p#Doua
+{
+	display :none;
+}
+/*
+article p#Doua:hover
+{
+	display:block;
+}
+*/
+article p#Ciel
+{
+	display :none;
+}
+/*
+article p#Ciel:hover
 {
 	display:block;
 }
@@ -116,6 +137,7 @@ article strong:hover
 {
 	color:red;
 }
+*/
 
 aside
 {
