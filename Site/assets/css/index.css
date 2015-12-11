@@ -84,6 +84,7 @@ article
 	height : 50em;
 	margin-left : 2%;
 	padding-left:1em;
+	overflow : auto;
 }
 
 article p.texte::first-letter
@@ -138,6 +139,23 @@ article strong:hover
 	color:red;
 }
 */
+
+article table
+{
+	width:33%;
+}
+
+article table ul
+{
+	list-style-type: none;
+}
+
+article table pre
+{
+	tab-size:4;
+	-o-tab-size:4;
+	-moz-tab-size:4;
+}
 
 aside
 {
