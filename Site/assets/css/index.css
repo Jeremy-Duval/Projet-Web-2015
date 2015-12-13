@@ -94,6 +94,11 @@ article p.texte::first-letter
 	font-family : castellar, serif;
 }
 
+article.trois
+{
+	height : 17em;
+}
+
 article img
 {
 	display:block;
