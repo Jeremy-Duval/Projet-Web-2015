@@ -34,7 +34,7 @@ header ul li
 
 header ul li:hover ul
 {
-	display: table;
+	display: table; /*permet d'afficher le sous menu correctomment sans modification du menu*/
 }
 
 header ul li ul 
@@ -74,18 +74,23 @@ nav ul
 	text-align : center;
 }
 
+section
+{
+	display : inline-block;
+	width : 66%;
+	margin-left : 2%;
+	padding-left:1em;
+}
 
 article
 {
 	display : inline-block;
-	width : 66%;
 	background-color : white;
 	opacity: 0.8;
 	height : 50em;
-	margin-left : 2%;
-	padding-left:1em;
 	overflow : auto;
 }
+
 
 article p.texte::first-letter
 {
@@ -96,8 +101,9 @@ article p.texte::first-letter
 
 article.trois
 {
-	height : 17em;
+	height : 16.5em;
 }
+
 
 article img
 {
@@ -141,7 +147,7 @@ article p#Ciel:hover
 
 article strong:hover
 {
-	color:red;
+	lor:red;
 }
 */
 
