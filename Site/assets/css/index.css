@@ -93,6 +93,32 @@ article p.texte::first-letter
 	font-family : castellar, "comic sans MS", serif;
 }
 
+/* TABLEAU COURS */
+
+table{
+	background-color: rgb(210,210,210);
+	border:0.2em solid rgb(150,150,150);
+	padding:0.5em 0.5em;
+	border-radius:0.5em;
+	font-family:arial;
+}
+td{
+	border:0.1em solid black;
+	padding: 0.2em 0.5em 0.2em 0.5em;
+	text-align:center;
+	background-color: white;
+}
+th{
+	border:0.05em solid grey;
+	text-align:center;
+	background-color: rgb(220,220,255);
+	color:blue;
+}
+
+
+/* FIN TABLEAU */
+
+
 aside
 {
 	display : inline-block;
