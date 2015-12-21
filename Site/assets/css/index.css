@@ -89,6 +89,34 @@ article
 	opacity: 0.8;
 	height : 50em;
 	overflow : auto;
+	width:100%;
+}
+/*
+article ul li:first-child
+{
+     display:none;
+}
+
+article ul li:first-child:hover
+{
+	display: inline-block;
+}
+
+article ul li:last-child
+{
+     display:inline-block;
+}
+
+article ul li:last-child:hover
+{
+	display: none;
+}
+*/
+
+article ul li ul 
+{
+	display : none;
+	transition: display 0s;
 }
 
 
@@ -114,46 +142,27 @@ article img
 	margin-bottom:2em;
 }
 
-article p#Bourg
+article p img.poster
 {
-	display :none;
+	width: 50%;
+	height: 50%;
 }
 
-/*
-article p#Bourg:hover
+
+article table tr
 {
-	display:block;
-}
-*/
-article p#Doua
-{
-	display :none;
-}
-/*
-article p#Doua:hover
-{
-	display:block;
-}
-*/
-article p#Ciel
-{
-	display :none;
-}
-/*
-article p#Ciel:hover
-{
-	display:block;
+	height: 5em;
+	width: 33%;
 }
 
-article strong:hover
+article table ul li
 {
-	lor:red;
+	padding-left:1em;
 }
-*/
 
-article table
+article table ul li:first-child
 {
-	width:33%;
+	padding-top:0.5em;
 }
 
 article table ul
@@ -161,12 +170,6 @@ article table ul
 	list-style-type: none;
 }
 
-article table pre
-{
-	tab-size:4;
-	-o-tab-size:4;
-	-moz-tab-size:4;
-}
 
 aside
 {
