@@ -41,6 +41,7 @@ header ul li ul
 {
 	display : none;
 	transition: display 0s;
+	-webkit-transition: display 0s;
 	position: relative;
 	z-index : 1;
 }
@@ -54,6 +55,7 @@ header ul li a
      text-shadow:0 1px 0 white;
      transition:background-color 1s;
 	 transition:width 1s;
+	 -webkit-transition: background-color 1s, width 1s;
 	 width:9em;
 	 color : white;
 }
@@ -91,32 +93,47 @@ article
 	overflow : auto;
 	width:100%;
 }
-/*
-article ul li:first-child
-{
-     display:none;
-}
 
-article ul li:first-child:hover
+article ul.note li
 {
 	display: inline-block;
 }
 
-article ul li:last-child
+article ul.note li:first-child
 {
-     display:inline-block;
+    color: green;
 }
 
-article ul li:last-child:hover
+article ul.note li:last-child
+{
+    color: red;
+    transition: display 5s;
+    -webkit-transition: display 5s; /* Safari 3.1 to 6.0 */
+}
+
+article:hover ul.note li:last-child
 {
 	display: none;
 }
-*/
+
+article ul.note
+{
+	padding-left: 0em;
+}
+
+article ul.note::first-letter
+{
+	color : blue;
+	font-size : 1.5em;
+	font-family : castellar, serif;
+}
+
 
 article ul li ul 
 {
 	display : none;
 	transition: display 0s;
+	-webkit-transition: display 0s; /* Safari 3.1 to 6.0 */
 }
 
 
@@ -192,6 +209,7 @@ aside ul li a
 	color: rgb(0,128,255);
 	transition: color 1s;
 	transition: text-decoration 1s;
+	-webkit-transition: color 1s, text-decoration 1s; /* Safari 3.1 to 6.0 */
 }
 
 aside ul li a:hover
@@ -202,7 +220,7 @@ aside ul li a:hover
 
 footer
 {
-	height : 4em;
+	height : 5em;
 	background-image: url("../images/back-ac.jpg");
 	background-size: 100%;
 }
@@ -210,4 +228,21 @@ footer
 footer p
 {
 	text-align:center;
+	margin: 0em 0em 0em 0em; 
 }
+
+footer p.validateur
+{
+	display: inline-block;
+}
+/*
+footer p.valideur img:first-child
+{
+	margin-left: 40%;
+}
+
+footer p.valideur img:last-child
+{
+	margin-right: 40%;
+}
+*/
