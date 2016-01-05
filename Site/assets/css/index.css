@@ -149,6 +149,16 @@ article.trois
 	height : 16.5em;
 }
 
+article#general p
+{
+	display: inline-block;
+
+}
+
+article#general ul
+{
+	display: inline-block;
+}
 
 article img
 {
@@ -172,19 +182,15 @@ article table tr
 	width: 33%;
 }
 
-article table ul li
+article table td 
 {
-	padding-left:1em;
-}
-
-article table ul li:first-child
-{
-	padding-top:0.5em;
+	padding-left: 3em;
+	vertical-align: top;
 }
 
 article table ul
 {
-	list-style-type: none;
+	list-style-type: circle;
 }
 
 
@@ -233,16 +239,5 @@ footer p
 
 footer p.validateur
 {
-	display: inline-block;
+	padding-top: 0.5em;
 }
-/*
-footer p.valideur img:first-child
-{
-	margin-left: 40%;
-}
-
-footer p.valideur img:last-child
-{
-	margin-right: 40%;
-}
-*/
