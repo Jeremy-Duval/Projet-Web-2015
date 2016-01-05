@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../assets/css/index.css">
+    <title>Site factice pour le module M1105-1 Web</title>
+  </head>
+  <body>
+  <header>
+	<h1>Site factice pour le module M1105-1 Web</h1>
+	<nav>
+		<ul>
+			<li><a href="../index.html">Accueil</a></li>
+			<li><a href="iut.html">Iut en général</a></li>
+			<li><a href="cours.html">Cours</a></li>
+			<li><a href="auteurs.html">Auteurs</a>
+			<ul>
+				<li><a href="auteurs.html#alexis">Alexis</a></li>
+				<li><a href="auteurs.html#jeremy">Jérémy</a></li>
+			</ul>
+			</li>
+			<li><a href="projet.html">Projets tuteurés</a>
+			<ul>
+				<li><a href="projet.html#alexis">Alexis</a></li>
+				<li><a href="projet.html#jeremy">Jérémy</a></li>
+			</ul>
+			</li>
+			<li><a href="form.html">Formulaire</a></li>
+		</ul>
+	</nav>
+	</header>
+	
+	<section>
+		<article>
+			<form action="http://champin.net/enseignement/intro-web/_static/formproc/debug" method="GET">
+				<h1>Formulaire</h1>
+				<p>
+					<input placeholder="pseudo">
+					<input type="password" placeholder="mot de passe">
+				</p>
+				
+			    <fieldset><legend>Informations générales</legend>	
+			    	<p>Êtes-vous :</p>
+				    <input type="radio" name="sexe" id="Homme" value="Homme"><label for="Homme">Un homme</label>
+					<input type="radio" name="sexe" id="Femme" value="Femme" checked><label for="Femme">Une femme</label>
+					<p>Année de naissance: <input type="date" name="naissance"></p>
+					<p>Nationalité: <input type="text" name="nationalite"></p>
+				 </fieldset>
+				 <fieldset><legend>Centres d'intérets</legend>
+				 	<label for="sport"> Votre sport préféré :</label>
+				    <select name="sport" id="sport" multiple>
+				  		<option value="Arts_martiaux">Arts_martiaux</option>
+				  		<option value="Basket">Basket</option>
+				  		<option value="Football">Football</option>
+				  		<option value="Foot_americain">Football Américain</option>
+				  		<option value="Golf">Golf</option>
+				 		<option value="Natation">Natation</option>
+				 		<option value="Petanque">Pétanque</option>
+				 		<option value="Sport d'hivers">Sport d'hivers</option>
+				 		<option value="Tennis">Tennis</option>
+				    </select>
+				    <p>Autre: <input type="text" name="autre_sport"></p>
+
+				    <label for="musique"> Votre style de musique préféré :</label>
+				    <select name="musique" id="musique" multiple>
+				  		<option value="Dubstep">Dubstep</option>
+				  		<option value="Electro">Electro</option>
+				  		<option value="Techno">Techno</option>
+				  		<option value="Rock">Rock</option>
+				  		<option value="Metal">Métal</option>
+				  		<option value="Punk">Punk</option>
+				 		<option value="Classique">Classique</option>
+				 		<option value="Psy_trance">Psy trance</option>
+				 		<option value="Reggae">Reggae</option>
+				 		<option value="Jazz">Jazz</option>
+				 		<option value="Rap">Rap</option>
+				 		<option value="Slam">Slam</option>
+				    </select>
+				    <p>Autre: <input type="text" name="autre_musique"></p>
+
+				    <label for="game"> Votre style de jeu vidéo préféré :</label>
+			     	<select name="game" id="game">
+			  		<option value="">Choisissez un type</option>
+			       	<optgroup label="Action">
+			                <option value="Combat">Combat</option>
+					 		<option value="Plates-formes">Plates-formes</option>
+					 		<option value="Tir"> Tir</option>
+					 		<option value="Autre_action">Autre</option>
+			        </optgroup>
+			        <optgroup label="Aventure">
+			                <option value="Fiction_interactive"> Fiction interactive</option>
+			                <option value="Aventure_graphique"> Aventure graphique</option>
+			                <option value="Simulation_de_drague">Simulation de drague</option>
+			                <option value="Visual_novel">Visual novel</option>
+			                <option value="Infiltration">Infiltration</option>
+			                <option value="Survival horror">Survival horror</option>
+			                <option value="Autre_aventure">Autre</option>
+			        </optgroup>
+			        <optgroup label="Jeu de rôle">
+			        		<option value="Jeu_de_rôle_d_action"> Jeu de rôle d'action</option>
+			                <option value="Hack_n_slash"> Hack'n'slash</option>
+			                <option value="Rogue-like">Simulation de drague</option>
+			                <option value="MMORPG">MMORPG</option>
+			                <option value="Jeu_rôle_tactique">Jeu de rôle tactique</option>
+			                <option value="Autre_rp">Autre</option>
+			        </optgroup>
+			        <optgroup label="Réflexion">
+			                <option value="Labyrinthe"> Labyrinthe</option>
+					 		<option value="Puzzle">Puzzle</option>
+					 		<option value="Autre_reflex">Autre</option>
+			        </optgroup>
+			        <optgroup label="Simulation">
+			                <option value="Gestion">Gestion</option>
+					 		<option value="God_Game">God Game</option>
+					 		<option value="Simulation_de_véhicule"> Simulation de véhicule</option>
+					 		<option value="Autre_simul">Autre</option>
+			        </optgroup>
+			        <optgroup label="Stratégie">
+			                <option value=" Stratégie_tour_par_tour">Stratégie au tour par tour</option>
+					 		<option value="Stratégie_temps_réel">Stratégie en temps réel</option>
+					 		<option value="Grande stratégie">Grande stratégie</option>
+			                <option value="4X"> 4X</option>
+					 		<option value="Wargame">Wargame</option>
+					 		<option value="Autre_strat">Autre</option>
+			        </optgroup>
+			        <optgroup label="Autres genres">
+			                <option value="Sport">Sport</option>
+					 		<option value="Course">Course</option>
+					 		<option value="Rythme">Rythme</option>
+					 		<option value="Autre_autre">Autre</option>
+			        </optgroup>
+			        <optgroup label="Aucun">
+			        </optgroup>
+			     </select>
+
+				 </fieldset>
+
+				 <p>
+			        <label for="monlogo">Logo :</label>
+					<input type="file" name="monlogo" id="monlogo">
+				</p>
+				<p>Une petite description de vous ?</p>
+				<textarea  name="description" rows="8" cols="45" maxlength="5000" placeholder="Description de profil"></textarea>
+				<input type="hidden" name="source" value="formulaire.html">
+				
+				<p><input type="submit" value="Valider">
+				<input type="reset" value="Effacer"></p>
+			</form>
+		</article>
+	</section>
+
+	<aside>
+	<h2>Liens utiles :</h2>
+	<ul>
+		<li><a href="http://iut.univ-lyon1.fr/">IUT Lyon 1</a></li>
+		<li><a href="https://github.com/ALEXIS-GARCIA">Github Alexis</a></li>
+		<li><a href="https://github.com/Jeremy-Duval">Github Jérémy</a></li>	</ul>
+	</aside>
+	
+	<footer>
+	<p>Webmasters : Alexis et Jérémy</p>
+	<p>2015 - 2016</p>
+	</footer>
+  </body>
+ </html>
