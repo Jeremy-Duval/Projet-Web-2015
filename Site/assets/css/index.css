@@ -328,6 +328,22 @@ body
 		margin-left : 2%;
 		margin-right:2%;
 		padding-left:1em;
+		border: 2px solid black;
+		margin-bottom:1%;
+	}
+	form
+	{
+		padding:10px;
+		width:90%;
+	}
+	textarea
+	{
+		width:90%;
+	}
+	img
+	{
+		width: 90%;
+		height: auto;
 	}
 
 		/* TABLEAU COURS */
@@ -338,6 +354,7 @@ body
 		padding:0.5em 0.5em;
 		border-radius:0.5em;
 		font-family:arial;
+		margin: 0 2% 2% 0;
 	}
 
 	table.cours td{
@@ -371,7 +388,7 @@ body
 		height : 3em;
 		background-image: url("../images/back-ac.jpg");
 		background-size: 100%;
-		
+		line-height:50%;		
 	}
 
 		a
